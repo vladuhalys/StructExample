@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{851f9bef-f89d-4e6c-9e5f-1d1705f49cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="color_rgba">
+      <UniqueIdentifier>{2f5b16c4-d451-4663-8321-97e8bcbf7129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="box">
+      <UniqueIdentifier>{5c502e37-3023-495a-9035-6639790e4f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="box_provider">
+      <UniqueIdentifier>{80d7d9fb-d354-4c7d-83e5-4c972fdb468a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="color_rgba.cpp">
+      <Filter>color_rgba</Filter>
+    </ClCompile>
+    <ClCompile Include="box.cpp">
+      <Filter>box</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="color_rgba.h">
+      <Filter>color_rgba</Filter>
+    </ClInclude>
+    <ClInclude Include="box.h">
+      <Filter>box</Filter>
+    </ClInclude>
+    <ClInclude Include="box_provider.h">
+      <Filter>box_provider</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
